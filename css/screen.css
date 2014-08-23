@@ -194,6 +194,10 @@ h2, h3 {
 	transition: width all .2s;
 }
 
+@media (max-width:768px) {
+	.footer .social {margin: 10px 12px 15px;}
+}
+
 .footer .social:hover {
 	-ms-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
