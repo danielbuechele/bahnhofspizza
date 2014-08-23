@@ -64,19 +64,23 @@ h2, h3 {
 
 }
 
+.infotext > div {
+	padding: 0 30px;
+}
+
 @media (max-width:768px) {
 	.infotext {
 		margin: 30px 50px 0px;
 	}
-	
+
 	.banner {
 		width: 90%;
 	}
 	
-}
+	.infotext > div {
+		padding: 0 15px;
+	}
 
-.infotext > div {
-	padding: 0 30px;
 }
 
 .events {
