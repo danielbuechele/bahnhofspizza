@@ -1,0 +1,194 @@
+@font-face {
+	font-family: 'corkituscan';
+	src: url('../fonts/corki-tuscan-webfont.eot');
+	src: url('../fonts/corki-tuscan-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/corki-tuscan-webfont.woff') format('woff'),
+		 url('../fonts/corki-tuscan-webfont.ttf') format('truetype'),
+		 url('../fonts/corki-tuscan-webfont.svg#corkituscan') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+@font-face {
+	font-family: 'brandon_grotesqueregular';
+	src: url('../fonts/brandon_re-webfont.eot');
+	src: url('../fonts/brandon_re-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/brandon_re-webfont.woff') format('woff'),
+		 url('../fonts/brandon_re-webfont.ttf') format('truetype'),
+		 url('../fonts/brandon_re-webfont.svg#brandon_grotesqueregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+body {
+	background-color: #EBD6BF;
+	text-align: center;
+	font-family: 'brandon_grotesqueregular';
+	font-size: 18px;
+	line-height: 140%;
+}
+
+.logo {
+	width: 90%;
+	max-width: 700px;
+	margin: 20px auto 20px;
+}
+
+.banner {
+	color: white;
+	width: 70%;
+	max-width: 650px;
+	margin: auto;
+	background-size: 100%;
+	height: 100px;
+	font-family: 'corkituscan';
+}
+
+h2, h3 {
+	font-family: 'corkituscan';
+	font-size: 30px;
+}
+
+.infotext {
+	margin: 70px 40px;
+}
+
+@media (max-width:991px) {
+	.infotext {
+		margin: 50px 10px;
+	}
+}
+
+.infotext > div {
+	padding: 0 30px;
+}
+
+.events {
+	overflow: hidden;
+	margin: 50px 0 0;
+}
+
+.event {
+	width: 25%;
+	float: left;
+	height: 300px;
+	color: white;
+	padding: 5px 10px;
+}
+
+.event .date {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.event h2 {
+	font-size: 42px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.event p {
+	text-align: left;
+}
+
+.event-image {
+	background-position: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.event .tag {
+	border-top: 2px white solid;
+	border-bottom: 2px white solid;
+	line-height: 30px;
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.event .tag .fa {
+	float: right;
+	line-height: 30px;
+	padding: 0 20px;
+	border-left: 2px white solid;
+}
+
+@media (min-width:769px) and (max-width:991px) {
+	.event {width: 33%;}
+}
+
+@media (min-width:520px) and (max-width:768px) {
+	.event {width: 50%;}
+}
+
+@media (max-width:519px) {
+	.event {
+		width: 100%;
+		height: auto;
+	}
+	
+	.event-image {
+		height: 240px;
+	}
+}
+
+.event:nth-child(1) {background-color: #73CBD4;}
+.event:nth-child(2) {background-color: #F9B444;}
+.event:nth-child(3) {background-color: #DD4C3B;}
+.event:nth-child(4) {background-color: #49423A;}
+.event:nth-child(5) {background-color: #A2CF85;}
+.event:nth-child(6) {background-color: #CCBEAD;}
+.event:nth-child(7) {background-color: #49423A;}
+.event:nth-child(8) {background-color: #F9B444;}
+.event:nth-child(9) {background-color: #DD4C3B;}
+.event:nth-child(10) {background-color: #73CBD4;}
+.event:nth-child(11) {background-color: #A2CF85;}
+.event:nth-child(12) {background-color: #DD4C3B;}
+.event:nth-child(13) {background-color: #73CBD4;}
+.event:nth-child(14) {background-color: #F9B444;}
+.event:nth-child(15) {background-color: #DD4C3B;}
+.event:nth-child(16) {background-color: #49423A;}
+.event:nth-child(17) {background-color: #A2CF85;}
+.event:nth-child(18) {background-color: #CCBEAD;}
+
+.footer {
+	background-color: #272727;
+	padding: 20px 0;
+	color: white;
+}
+
+.footer .social {
+	background-color: white;
+	border-radius: 999em;
+	display: inline-block;
+	color: #272727;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	margin: 10px 15px 15px;
+	
+	-webkit-transition: all .2s;
+	transition: width all .2s;
+}
+
+.footer .social:hover {
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	
+	-webkit-transition: all .2s;
+	transition: width all .2s;
+}
+
+
+/* Retina-specific stuff here */
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){ 
+    
+}
