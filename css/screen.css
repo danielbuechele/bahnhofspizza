@@ -57,9 +57,19 @@ h2, h3 {
 	margin: 70px 40px;
 }
 
-@media (max-width:991px) {
+@media (min-width:769px) and (max-width:991px) {}
 	.infotext {
-		margin: 50px 10px;
+		margin: 30px 10px 50px;
+	}
+	
+	.banner {
+		width: 90%;
+	}
+}
+
+@media (max-width:768px) {
+	.infotext {
+		margin: 50px 0px;
 	}
 }
 
