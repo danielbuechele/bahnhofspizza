@@ -59,18 +59,20 @@ h2, h3 {
 
 @media (min-width:769px) and (max-width:991px) {}
 	.infotext {
-		margin: 30px 10px 50px;
+		margin: 10px 50px;
+	}
+
+}
+
+@media (max-width:768px) {
+	.infotext {
+		margin: 30px 50px 0px;
 	}
 	
 	.banner {
 		width: 90%;
 	}
-}
-
-@media (max-width:768px) {
-	.infotext {
-		margin: 50px 0px;
-	}
+	
 }
 
 .infotext > div {
