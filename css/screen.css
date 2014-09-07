@@ -250,6 +250,12 @@ h4 {
 	max-width: 100%;
 }
 
+@media (max-width:519px) {
+	.menu table {
+		width: auto;
+	}
+}
+
 .menu td {
 	text-align: left;
 	padding: 3px 5px;
